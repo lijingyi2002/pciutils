@@ -1,3 +1,6 @@
+补充基于android编译pcituils的编译脚本，使用NDK21版本已编译成功且正常运行
+
+//
 This package contains the PCI Utilities, version @VERSION@.
 
 Copyright (c) 1997--2020 Martin Mares <mj@ucw.cz>
