@@ -8,24 +8,24 @@ VERSION=3.7.0
 DATE=2020-05-31
 
 # Host OS and release (override if you are cross-compiling)
-HOST=
-RELEASE=
+HOST=linux	
+RELEASE=arm
 CROSS_COMPILE=
 
 # Support for compressed pci.ids (yes/no, default: detect)
-ZLIB=
+ZLIB=no
 
 # Support for resolving ID's by DNS (yes/no, default: detect)
-DNS=
+DNS=no
 
 # Build libpci as a shared library (yes/no; or local for testing; requires GCC)
 SHARED=no
 
 # Use libkmod to resolve kernel modules on Linux (yes/no, default: detect)
-LIBKMOD=
+LIBKMOD=no
 
 # Use libudev to resolve device names using hwdb on Linux (yes/no, default: detect)
-HWDB=
+HWDB=no
 
 # ABI version suffix in the name of the shared library
 # (as we use proper symbol versioning, this seldom needs changing)
